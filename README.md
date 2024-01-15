@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## monitorScreen
+졸업 전시 명함사무실 모니터 화면
+
+# Getting Started
 
 First, run the development server:
 
