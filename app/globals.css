@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'DOSSaemmul';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSSaemmul.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'DOSSaemmul';
+
+}
+
+h1, h3{
+  text-align: center;
+  padding-top: 30px;
+}
+
+strong{
+  color: darkblue;
+}
+
+header{
+  text-align: right;
+  padding: 18px;
+}
+
+main{
+  height: 50vh;
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer{
+  text-align: center;
+  color: grey;
+}
+
+.logo{
+  margin-top: 50px;
+}
+
+.navbar{
+  backgroud:black;
+  padding:20px;
+  margin-left:90px;
+}
+
+.navbar a{
+  margin-left:175px;
+  text-decoration:none;
+}
+
