@@ -6,7 +6,7 @@ const indexRouter = require("./routes/index")
 
 const app = express()
 app.use(bodyParser.json())
-app.use(indexRouter)
+app.use("/api",indexRouter)
 
 
 const mongoURI =`mongodb://localhost:27017/` //DB 주소, DB 이름
