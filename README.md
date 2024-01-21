@@ -1,7 +1,7 @@
-## monitorScreen
+# monitorScreen
 졸업 전시 명함사무실 모니터 화면
 
-# Getting Started
+## Getting Started
 
 run the development server:
 
