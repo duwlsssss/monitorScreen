@@ -4,10 +4,10 @@ export default function Myungham(){
     return(
         // <Layout>    
             <div>
-                <div className="navbar">
-                        <Link href="/">홈</Link>
-                        <Link href="/myungham">명함 만들러 가기</Link>
-                        <Link href="/aboutUs">About Us</Link>
+                <div className="container">
+                        <Link className="item" href="/">홈</Link>
+                        <Link className="item" href="/myungham">명함 만들러 가기</Link>
+                        <Link className="item" href="/aboutUs">About Us</Link>
                 </div>
                 <h1>대학생 명함 문화 주도, 김명사</h1>
                 <h3>대학생도 명함이 필요합니다.</h3>

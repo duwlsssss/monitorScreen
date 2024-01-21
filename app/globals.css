@@ -36,17 +36,23 @@ footer{
 }
 
 .logo{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-.navbar{
-  backgroud:black;
-  padding:20px;
-  margin-left:90px;
+.container {
+  margin-top:50px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:100px;
 }
 
-.navbar a{
-  margin-left:175px;
-  text-decoration:none;
+.item{
+  text-decoration:underline;
+  color:darkblue;
+}
+
+.item:hover{
+  color:purple;
 }
 
