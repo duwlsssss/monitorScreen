@@ -22,7 +22,7 @@ const cardSchema = Schema({
         type: String,
         required:true
     }
-})
+},{timestamps:true})
 
 const Card = mongoose.model("Card", cardSchema)
 

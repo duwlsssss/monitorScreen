@@ -1,5 +1,4 @@
 const express = require('express')//express 프레임워크
-const cardController = require('../controller/cardController')
 const router = express.Router() //express가 제공하는 라우터 함수 사용
 const cardApi = require('./card.api')
 

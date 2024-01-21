@@ -17,6 +17,14 @@ cardController.createCard= async(req,res)=>{
 
 }
 
+cardController.getCard=async(req,res)=>{
+    try{
+        const cardList = await Card.find({})
+        res.status(200).json({status:'ok', data: cardList})
+    }catch(err){
+        res.status(400).json({status:'fail', error: err})
+    }
+}
 
 
 
