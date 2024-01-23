@@ -18,7 +18,7 @@ const cardSchema = Schema({
         type: String,
         required: true
     },
-    mbTi:{
+    MBTi:{
         type: String,
         required:true
     }
