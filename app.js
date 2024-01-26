@@ -3,6 +3,10 @@ const mongoose = require ('mongoose')
 const bodyParser = require('body-parser') //설치한 npm 들 정의
 const indexRouter = require("./routes/index")
 const cors = require('cors');
+require('dotenv').config()
+
+
+const MONGODB_URI_PROD = process.env.MONGODB_URI_PROD
 
 
 const app = express()
@@ -13,8 +17,7 @@ app.use(bodyParser.json())
 app.use("/",indexRouter)
 
 
-
-const mongoURI =`mongodb://localhost:27017/` //DB 주소, DB 이름
+const mongoURI = MONGODB_URI_PROD //DB 주소
 
 mongoose.connect(mongoURI).then(()=>{
     console.log("mongoose connected")
