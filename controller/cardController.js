@@ -3,9 +3,9 @@ const cardController={}
 
 cardController.createCard= async(req,res)=>{
     try{
-        const {name, school, age, session, MBTi} = req.body
+        const {name, engName, major, studentNum, school, session, MBTI, ig, email} = req.body
 
-        const newCard=new Card({name, school, age, session, MBTi})
+        const newCard=new Card({name, engName, school, major,studentNum, session, MBTI, ig, email })
 
         await newCard.save()
         res.status(200).json({status:'ok', data: newCard})

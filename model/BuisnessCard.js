@@ -6,22 +6,39 @@ const cardSchema = Schema({
         type: String,
         required: true
     },
+    engName: {
+        type: String,
+        required: true
+    },
     school:{
         type: String,
         required: true
     },
-    age:{
-        type: Number,
+    major:{
+        type: String,
+        required: true
+    },
+    email:{
+        type:String,
+        required:true
+    },
+    studentNum:{
+        type:Number,
         required: true
     },
     session:{
         type: String,
         required: true
     },
-    MBTi:{
+    MBTI:{
         type: String,
         required:true
+    },
+    ig:{
+        type: String,
+        required: true
     }
+    
 },{timestamps:true})
 
 const Card = mongoose.model("Card", cardSchema)

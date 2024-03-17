@@ -27,6 +27,6 @@ mongoose.connect(mongoURI).then(()=>{
 
 
 
-app.listen(8000,()=>{ //모든 요청이 오는 주소, Port number = app listener
-    console.log("server is on 8000.")
+app.listen(process.env.PORT||8000,()=>{ //모든 요청이 오는 주소, Port number = app listener
+    console.log("server is on 8000.") 
 }) 
