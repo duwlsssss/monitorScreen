@@ -18,7 +18,7 @@ const cardSchema = Schema({
         type: String,
         required: true
     },
-    email:{
+    email:{ //카드 입력 이메일
         type:String,
         required:true
     },
@@ -37,6 +37,12 @@ const cardSchema = Schema({
     ig:{
         type: String,
         required: true
+    },
+    moto:{
+        type: String
+    },
+    userEmail:{//구글 로그인 이메일
+        type:String
     }
     
 },{timestamps:true})
