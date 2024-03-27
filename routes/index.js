@@ -3,11 +3,13 @@ const router = express.Router() //express가 제공하는 라우터 함수 사�
 const cardApi = require('./card.api')
 const authApi = require('./auth.api')
 const userApi = require('./user.api')
+const imageApi = require('./images.api')
 
 
 router.use('/cards', cardApi) 
 router.use('/auth', authApi)
 router.use('/user',userApi)
+router.use('/images', imageApi)
 
 
 module.exports=router
